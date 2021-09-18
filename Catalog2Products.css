@@ -1,0 +1,69 @@
+.catalog2__Products {
+    /* border: 1px solid black; */
+    display: flex;
+}
+.prodductsDiv{
+    display: flex;
+}
+
+.productCart {
+    width: 250px;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.productImage {
+    width: 185px;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.productDetaildiv{
+    /* border: 1px solid black; */
+    padding: 8px;
+    padding-left: 20px;
+}
+.productNameDiv {
+    /* border: 1px solid black; */
+}
+
+.productname a {
+    text-decoration: none;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    font-size: 16px;
+}
+
+.productname>a:hover, a:active {
+    color: #555555;
+}
+
+.priceDiv {
+    margin-top: 8px;
+}
+
+.stock, .price {
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    font-size: 14px;
+}
+
+.qty {
+    margin-top: 10px;
+    width: 10px;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    font-size: 15px;
+}
