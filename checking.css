@@ -1,0 +1,42 @@
+.Catalog2ProductDisplayer {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 18%;
+    margin-right: 18%; */
+}
+
+.Catalog2__productAndSidebarCatagoriesContainer {
+    display: flex;
+    margin-top: 70px;
+    width: 75%;
+    /* flex-wrap: wrap; */
+}
+
+.CatelogDefine {
+    padding: 10 px;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    letter-spacing: 1px;
+}
+
+.prodductsDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+.catalog3productDiv{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(82, 78, 78);
+}
+
+.pagenumber{
+    margin-left: 10px;
+}
+.pagesHandling {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+

@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Catalog2Products.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="catalog2.css">
-    <link rel="stylesheet" href="Catalog2Products.css">
+    <link rel="stylesheet" href="checking.css">
+
 </head>
 
 <body>
-
-    <div class="catalog__mainBox">
+    <div class="catalogMainBox">
         <div class="header">
             <div class="headersection">
                 <div class="header__firstlayer">
@@ -26,16 +27,15 @@
                 </div>
                 <div class="header__secondlayer">
                     <ul class="navbarItems">
-                        <li class="highlighted">HOME</li>
-                        <li>SHOP</li>
-                        <li>BLOG</li>
-                        <li>FORUM</li>
-                        <li>FAQ</li>
-                        <li>CONTACT</li>
-                        <li>ABOUT</li>
-                        <li>PORTFOLIO</li>
-                        <li>Charitable Giving</li>
-
+                        <li class="highlighted"><a class="headerLinks" href="index.html">HOME</a></li>
+                        <li><a class="headerLinks" href="#">SHOP</a></li>
+                        <li><a class="headerLinks" href="#">BLOG</a></li>
+                        <li><a class="headerLinks" href="#">FORUM</a></li>
+                        <li><a class="headerLinks" href="#">FAQ</a></li>
+                        <li><a class="headerLinks" href="#">CONTACT</a></li>
+                        <li><a class="headerLinks" href="#">ABOUT</a></li>
+                        <li><a class="headerLinks" href="#">PORTFOLIO</a></li>
+                        <li><a class="headerLinks" href="#">Charitable</a> Giving</li>
                         <form>
                             <input type="text" name="searchbar" id="searchBar">
                             <input type="submit" id="searchBtn" value="Search">
@@ -44,84 +44,383 @@
                 </div>
             </div>
         </div>
-        <br><br><br>
-        <div class="catalog2__Products">
-            <div class="CatelogDefine">Catelog 2</div>
-            <div class="prodductsDiv">
-                <div class="productRow">
-                    <div class="productCart">
-                        <div class="productImage">
-                            <img
-                                src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crunchmaster%20Multi-Grain%20Crackers%20Original%20Grain%20Multi-Seed%20Crackers_2-10%20oz%20Bags_1%20lb%204%20oz%20Box%20S.jpg" />
-                        </div>
-                        <div class="productDetaildiv">
-                            <div class="productNameDiv">
-                                <p class="productname">
-                                    <a href="#"> Crunchmaster®|Multi-Grain Crackers|Original Grain Multi-Seed
-                                        Crackers|2 10 oz Bags</a>
-                                </p>
+
+
+
+        <div class="Catalog2ProductDisplayer">
+            <div class="Catalog2__productAndSidebarCatagoriesContainer ">
+                <div>
+                    <div class="CatelogDefine">Catalog 2</div>
+                    <div>
+                        <div class="prodductsDiv">
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crunchmaster%20Multi-Grain%20Crackers%20Original%20Grain%20Multi-Seed%20Crackers_2-10%20oz%20Bags_1%20lb%204%20oz%20Box%20S.jpg" />
+                                    </div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#"> Crunchmaster®|Multi-Grain Crackers|Original Grain
+                                                    Multi-Seed
+                                                    Crackers|2 10 oz Bags</a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="priceDiv">
-                                <p class="price">Price: </p>
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crush%20Nuevo%20Mandarina%20Soda_2%20Liter%20Bottle%20L.jpg" />
+                                    </div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#">Crush® Nuevo|Mandarina Soda|2 Liter Bottle </a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="stockDiv">
-                                <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crush%20Cherry%20Soda_12-12%20fl%20oz%20Cans%20L.jpg" />
+                                    </div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#"> Crush®|Cherry Soda|12 - 12 fl oz Cans|1 Box</a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="Qty">
-                                Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
-                                <button>Add to Cart</button>
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crush%20Cherry%20Soda_12-12%20fl%20oz%20Cans%20S.jpg" />
+                                    </div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#"> Crush®|Cherry Soda|12 - 12 fl oz Cans|1 Box</a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
+
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crush%20Cherry%20Soda_2%20Liter%20Bottle%20S.jpg">
+                                    </div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#"> Crush®|Cherry Soda|2 Liter Bottle</a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%203/Crush-Diet-Orange-Soda_12-12-fl-oz-Cans-Box-S.jpg">
+                                    </div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#"> Crush®|Diet Orange Soda|12 - 12 fl oz Cans|1 Box</a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crush%20Diet%20Orange%20Soda_18-12%20oz%20Cans%20S.jpg" />
+                                    </div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#"> Crush®|Diet Orange Soda|18 - 12 fl oz Cans</a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crush%20Diet%20Orange%20Soda_2%20Liter%20Bottle%20S.jpg">
+                                    </div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#">Crush®|Diet Orange Soda|2 Liter Bottle</a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crush%20Diet%20Orange%20Soda_8-12%20fl%20oz%20Cans%20S.jpg">
+                                    </div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#">Crush®|Diet Orange Soda|8 - 12 fl oz Cans   </a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%203/Crush-Grape-Soda_12-12-fl-oz-Cans-Box-S.jpg"></div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#">Crush®|Grape Soda|12 - 12 fl oz Cans|1 Box</a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crush%20Grape%20Soda_18-12%20oz%20Cans%20S.jpg"></div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#">Crush®|Grape Soda|18 - 12 fl oz Cans</a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="productRow">
+                                <div class="productCart">
+                                    <div class="productImage">
+                                        <img
+                                            src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crush%20Grape%20Soda_2%20Liter%20Bottle%20S.jpg"></div>
+                                    <div class="productDetaildiv">
+                                        <div class="productNameDiv">
+                                            <p class="productname">
+                                                <a href="#">Crush®|Grape Soda|2 Liter Bottle </a>
+                                            </p>
+                                        </div>
+                                        <div class="priceDiv">
+                                            <p class="price">Price: </p>
+                                        </div>
+                                        <div class="stockDiv">
+                                            <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
+                                        </div>
+                                        <div class="Qty">
+                                            Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
+                                            <button>Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
                         </div>
                     </div>
                 </div>
-                <div class="productRow">
-                    <div class="productCart">
-                        <div class="productImage">
-                            <img
-                                src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crunchmaster%20Multi-Grain%20Crackers%20Original%20Grain%20Multi-Seed%20Crackers_2-10%20oz%20Bags_1%20lb%204%20oz%20Box%20S.jpg" />
-                        </div>
-                        <div class="productDetaildiv">
-                            <div class="productNameDiv">
-                                <p class="productname">
-                                    <a href="#"> Crunchmaster®|Multi-Grain Crackers|Original Grain Multi-Seed
-                                        Crackers|2 10 oz Bags</a>
-                                </p>
-                            </div>
-                            <div class="priceDiv">
-                                <p class="price">Price: </p>
-                            </div>
-                            <div class="stockDiv">
-                                <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
-                            </div>
-                            <div class="Qty">
-                                Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
-                                <button>Add to Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="productRow">
-                    <div class="productCart">
-                        <div class="productImage">
-                            <img
-                                src="http://dweissmc.businesscatalyst.com/images/pictures%20catalog%2014/Crunchmaster%20Multi-Grain%20Crackers%20Original%20Grain%20Multi-Seed%20Crackers_2-10%20oz%20Bags_1%20lb%204%20oz%20Box%20S.jpg" />
-                        </div>
-                        <div class="productDetaildiv">
-                            <div class="productNameDiv">
-                                <p class="productname">
-                                    <a href="#"> Crunchmaster®|Multi-Grain Crackers|Original Grain Multi-Seed
-                                        Crackers|2 10 oz Bags</a>
-                                </p>
-                            </div>
-                            <div class="priceDiv">
-                                <p class="price">Price: </p>
-                            </div>
-                            <div class="stockDiv">
-                                <p class="stock">In Stock: <span style="font-weight: bold;">N/A</span> </p>
-                            </div>
-                            <div class="Qty">
-                                Qty: <input type="text" name="Quantity" placeholder="1" class="qty">
-                                <button>Add to Cart</button>
+
+
+                <!-- ===============================================================================
+                SIDE BAR SECTION
+                =============================================================================== -->
+
+                <div>
+                    <div>
+                        <div class="catalogsPotion">
+                            <div class="catalogbox">
+                                <div class="categories">
+                                    <div class="categorieyHeading">
+                                        Categories
+                                    </div>
+                                    <div class="catelogdivshape">
+                                        <a href="">CATALOG</a>
+                                    </div>
+                                    <div class="catelogdivshape">
+                                        <a href=""> Catalog 1</a>
+                                    </div>
+                                    <div class="catelogdivshape">
+                                        <a href="Catalog2Products.html"> Catalog 2</a>
+                                    </div>
+                                    <div class="catelogdivshape">
+                                        <a href="Catalog3.html"> Catalog 3</a>
+                                    </div>
+                                    <div class="catelogdivshape">
+                                        <a href=""> Nabisco®|Classic Mix Variety Pack|1 oz<br /><br> Pk|20 ct Box</a>
+                                    </div>
+                                    <div class="catelogdivshape">
+                                        <a href="">Test</a>
+                                    </div>
+                                    <div class="catelogdivshape">
+                                        <a href="">Test 2</a>
+                                    </div>
+                                    <div class="catelogdivshape">
+                                        <a href="">Categories</a>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -129,62 +428,28 @@
             </div>
         </div>
 
-
-        <div class="catalogsPotion">
-            <div class="catalogbox">
-                <div class="categories">
-                    <div class="categorieyHeading">
-                        Categories
-                    </div>
-                    <div class="catelogdivshape">
-                        <a href="">CATALOG</a>
-                    </div>
-                    <div class="catelogdivshape">
-                        <a href=""> Catalog 1</a>
-                    </div>
-                    <div class="catelogdivshape">
-                        <a href="Catalog2Products.html"> Catalog 2</a>
-                    </div>
-                    <div class="catelogdivshape">
-                        <a href=""> Catalog 3</a>
-                    </div>
-                    <div class="catelogdivshape">
-                        <a href=""> Nabisco®|Classic Mix Variety Pack|1 oz<br /><br> Pk|20 ct Box</a>
-                    </div>
-                    <div class="catelogdivshape">
-                        <a href="">Test</a>
-                    </div>
-                    <div class="catelogdivshape">
-                        <a href="">Test 2</a>
-                    </div>
-                    <div class="catelogdivshape">
-                        <a href="">Categories</a>
-                    </div>
-
-                </div>
+        <div class="pagesHandling">
+            <div>
+                <a href="#">
+                    <img src="./Assets/Project custom Images/Nextimage.png">
+                </a>
+            </div>
+            <div class="pagenumber">1 2 3 4 5 .. 27 </div>
+        </div>
+        <div class="footersectionfirst">
+            <div class="footerDividedSections">
+                <div>Site menu</div>
+                <div>Latest news</div>
+                <div>Newsletter Sign-up</div>
+                <div>Members Only Login</div>
             </div>
         </div>
-    </div>
-
-
-
-
-
-    <div class="footersectionfirst">
-        <div class="footerDividedSections">
-            <div>Site menu</div>
-            <div>Latest news</div>
-            <div>Newsletter Sign-up</div>
-            <div>Members Only Login</div>
+        <div class="footerSecondSection">
+            <div class="secondSectionDetail">
+                <div class="copyright">Copyright © 2011 dweissmc.businesscatalyst.com, all rights reserved.</div>
+                <div><img src="http://dweissmc.businesscatalyst.com/images/logo-footer.png" alt="footer image" /></div>
+            </div>
         </div>
-    </div>
-    <div class="footerSecondSection">
-        <div class="secondSectionDetail">
-            <div class="copyright">Copyright © 2011 dweissmc.businesscatalyst.com, all rights reserved.</div>
-            <div><img src="http://dweissmc.businesscatalyst.com/images/logo-footer.png" alt="footer image" /></div>
-        </div>
-    </div>
-
 
 
 
@@ -192,7 +457,6 @@
 
 
 
-    </div>
 
 </body>
 

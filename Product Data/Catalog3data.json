@@ -1,0 +1,21 @@
+{
+
+"Product1": {
+    "ProductName": "Product 1",
+    "ProductImage": "product 1 image",
+    "Price": 25.00,
+    "Stock": "N/A" 
+},
+"Product2": {
+    "ProductName": "Product 2",
+    "ProductImage": " product 2 image",
+    "Price": 25.00,
+    "Stock": "N/A" 
+},
+"Product3": {
+    "ProductName": "Product 3",
+    "ProductImage": "Product 3 image",
+    "Price": 25.00,
+    "Stock": "N/A" 
+}
+}

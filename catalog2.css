@@ -35,6 +35,19 @@
     justify-content: center;
 }
 
+.catalog2__Products {
+    display: flex;
+    border: 1px solid black;
+  }
+
+.CatelogDefine {
+    /* border: 1px solid black; */
+}
+
+.prodductsDiv {
+    border-bottom: 1px solid rgb(82, 78, 78);
+}
+
 .product__box {
     display: flex;
     /* flex: 1; */
@@ -68,7 +81,8 @@
 .stockupdate {
     font-size: 13px;
 }
-.cartItemDealer{
+
+.cartItemDealer {
     width: 10px;
     outline: none;
 }
@@ -80,6 +94,7 @@
 /* #formForCommenting{
     border: 1px solid black
 } */
+
 .helpfullUpdates {
     margin-top: 30px;
     display: flex;
@@ -89,24 +104,28 @@
     font-size: 14px;
     font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
 }
-.helpful{
 
+.helpful {
     margin-right: 50px;
 }
-.name{
+
+.name {
     margin-right: 60px;
 }
-.websiteName{
+
+.websiteName {
     margin-right: 50px;
 }
-.emailAddress{
+
+.emailAddress {
     margin-right: 20px;
 }
-.comments{
+
+.comments {
     margin-right: 48px;
 }
+
 .answersection {
-    /* border: 1px solid black; */
     font-size: 14px;
     font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
 }
@@ -128,7 +147,8 @@
     width: 300px;
     outline: none;
 }
-.submitBtn{
+
+.submitBtn {
     background: transparent url(./Assets/Project\ custom\ Images/button.png) no-repeat 0 0;
     padding: 5px;
     border: none;
@@ -147,8 +167,9 @@
     background-color: #eeeeee;
     outline: none;
 }
+
 .catalogsPotion {
-    flex: 1;
+    /* flex: 1; */
     margin-left: 30px;
 }
 

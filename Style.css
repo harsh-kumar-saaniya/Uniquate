@@ -19,6 +19,13 @@
     color:white;
 
 }
+.headerLinks{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: red;
+}
 .header__firstlayer{
     display:flex;
     justify-content: space-between;
