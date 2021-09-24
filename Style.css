@@ -1,9 +1,9 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.header{
+.header {
     width: 100%;
     /* background-image: url('http://dweissmc.businesscatalyst.com/images/header-footer.png'); */
     background-image: url('http://dweissmc.businesscatalyst.com/images/header-footer.png');
@@ -11,88 +11,112 @@
     background-size: cover;
     background-color: black;
 }
-.headersection{
+a{
+    text-decoration: none;
+    color: white;
+}
+.headersection {
     margin-right: 14%;
     margin-left: 14%;
     padding-top: 20px;
     padding-bottom: 20px;
-    color:white;
-
+    color: white;
 }
-.headerLinks{
+
+form {
+    display: flex;
+}
+
+.headerLinks {
     text-decoration: none;
     color: white;
 }
-.active{
+
+.active {
     color: red;
 }
-.header__firstlayer{
-    display:flex;
+
+.header__firstlayer {
+    display: flex;
     justify-content: space-between;
 }
-#searchBar{
+
+#searchBar {
     padding: 3px;
     outline: none;
 }
-#searchBtn{
+
+#searchBtn {
     width: 110px;
-    padding:5px;
+    padding: 5px;
     border-radius: 20px;
 }
-.header__secondlayer{
+
+.header__secondlayer {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
-.navbarItems{
+
+.navbarItems {
     list-style-type: none;
     display: flex;
 }
-.navbarItems>li{
-    margin-left:20px;
+
+.navbarItems>li {
+    margin-left: 20px;
     text-transform: uppercase;
-    letter-spacing:0.095em;
+    letter-spacing: 0.095em;
     font-size: 14.5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
 }
-.highlighted{
+
+.highlighted {
     color: red;
 }
-.linksParts{
+
+.linksParts {
     margin-right: 23%;
     margin-left: 23%;
     margin-top: 2%;
 }
-.linkpartsUl > li {
+
+.linkpartsUl>li {
     font-size: 13px
 }
-.linkpartsUl > li > a{
+
+.linkpartsUl>li>a {
     font-size: 13px;
     text-decoration: none;
-    color:#0a86f2;
+    color: #0a86f2;
     outline: none;
 }
-.linkpartsUl >li>a:hover{
+
+.linkpartsUl>li>a:hover {
     color: black;
 }
-.footersectionfirst{
+
+.footersectionfirst {
     margin-top: 30px;
-    height: 500px;
+    padding-bottom: 50px;
+    /* height: 500px; */
     width: 100%;
     background-image: url('http://dweissmc.businesscatalyst.com/images/footer.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.footerDividedSections{
-    margin-right: 23%;
-    margin-left: 23%;
+
+.footerDividedSections {
+    margin-right: 17%;
+    margin-left: 17%;
     padding-top: 25px;
     display: flex;
     color: #cccccc;
+    /* background-color: rgb(208, 208, 218); */
     font-size: 14px;
     justify-content: space-between;
-
 }
-.footerSecondSection{
+
+.footerSecondSection {
     /* width: 100%; */
     height: 70px;
     background-color: black;
@@ -100,14 +124,145 @@
     flex-direction: column;
     justify-content: center;
 }
-.secondSectionDetail{
+
+.secondSectionDetail {
     margin-right: 23%;
     margin-left: 23%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.copyright{
+
+.copyright {
     font-size: 12px;
-    color:#b3abab;
+    color: #b3abab;
+}
+
+.footerDividedSections {
+    /* border: 1px solid black; */
+}
+
+.siteMennuDiv {
+    /* flex: 1; */
+}
+
+.sideMenuTable {
+    margin-top: 25px;
+    width: 220px;
+    /* border: 1px solid white; */
+}
+
+/* .tableRow{
+    border:1px solid rgb(204, 0, 0);
+} */
+
+.tableRow {
+    border: 10px solid rgb(204, 0, 0);
+}
+
+.tableDATA {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    border-top: 1px solid #242b40;
+    /* border-bottom: 1px solid #070a12; */
+}
+
+.tableDATA>a {
+    text-decoration: none;
+    color: #404b67;
+}
+
+.tableDATA>a:hover {
+    color: rgb(226, 216, 216);
+}
+
+.secondDiv {
+    /* margin-left: 20px; */
+    /* border: 3px solid blue; */
+}
+
+.boxForLatestNews {
+    /* flex: 1; */
+    /* border-top: 1px solid black; */
+    /* border: 1px solid white; */
+    margin-top: 25px;
+    width: 270px;
+}
+
+/* .updates {} */
+
+.updates>h1 {
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+}
+
+.updates>h1>a {
+    color: #0a86f2;
+    text-decoration: none;
+}
+
+.dateupdates {
+    color: rgb(117, 116, 116);
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    font-weight: 100;
+}
+
+.updates>p {
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    color: grey;
+    margin-top: 5px;
+}
+
+.newsletterSignup {
+    /* border: 2px solid white; */
+    /* display: block; */
+    /* width: 150px; */
+}
+
+.newsletterSignup>form {
+    display: block;
+}
+
+.sigup-place {
+    margin-top: 25px;
+    border-top: 1px solid #242b40;
+    margin-bottom: 10px;
+}
+
+.name {
+    margin-top: 15px;
+}
+
+.name, .email, .verification>p {
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    color: grey;
+}
+
+.code>p {
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    background-color: grey;
+}
+
+.fullNameID {
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    background-color: #eeeeee;
+    height: 15px;
+    /* width: 300px; */
+}
+
+.submitBtn {
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.remember {
+    margin-left: 5px;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    color: grey;
 }
