@@ -3,18 +3,30 @@
     padding: 0;
 }
 
+body {
+    background-image: url('./Assets/Project\ custom\ Images/bg.png');
+}
+
 .header {
     width: 100%;
-    /* background-image: url('http://dweissmc.businesscatalyst.com/images/header-footer.png'); */
-    background-image: url('http://dweissmc.businesscatalyst.com/images/header-footer.png');
+    background-image: url('./Assets/Project\ custom\ Images/header-footer.png');
     background-repeat: repeat-x;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     background-color: black;
 }
-a{
+
+li {
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    letter-spacing: 1.1px;
+    margin-bottom: 3px;
+}
+
+a {
     text-decoration: none;
     color: white;
 }
+
 .headersection {
     margin-right: 14%;
     margin-left: 14%;
@@ -68,6 +80,7 @@ form {
     letter-spacing: 0.095em;
     font-size: 14.5px;
     font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    cursor: pointer;
 }
 
 .highlighted {
@@ -75,8 +88,8 @@ form {
 }
 
 .linksParts {
-    margin-right: 23%;
-    margin-left: 23%;
+    margin-right: 17%;
+    margin-left: 17%;
     margin-top: 2%;
 }
 
@@ -100,7 +113,8 @@ form {
     padding-bottom: 50px;
     /* height: 500px; */
     width: 100%;
-    background-image: url('http://dweissmc.businesscatalyst.com/images/footer.png');
+    /* background-image: url('http://dweissmc.businesscatalyst.com/images/footer.png'); */
+    background-image: url("./Assets/Project\ custom\ Images/footer.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -126,8 +140,8 @@ form {
 }
 
 .secondSectionDetail {
-    margin-right: 23%;
-    margin-left: 23%;
+    margin-right: 16%;
+    margin-left: 16%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -259,10 +273,87 @@ form {
     border-radius: 30px;
     width: 150px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .remember {
     margin-left: 5px;
     font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
     color: grey;
+}
+
+/* .into-container {
+    border: 1px solid black;
+} */
+
+.intro-container--inside {
+    margin-right: 16%;
+    margin-left: 16%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intro__descrip {
+    /* background-color: lawngreen; */
+}
+
+.upper {
+    margin-top: 100px;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 30px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper:nth-child(1) {
+    font-size: 14px;
+    color: #444444;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+}
+
+.upper:nth-child(2) {
+    font-size: 14px;
+    color: #444444;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+}
+
+.middle {
+    margin-left: 10px;
+    width: 250px;
+}
+
+.middle_firstHeading {
+    color: #444444;
+    font-size: 14px;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+}
+
+.firstThird {
+    color: black;
+    font-size: 14px;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    word-spacing: 1px;
+}
+
+.firstSecond {
+    word-spacing: 2px;
+    /* color: #444444; */
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+}
+.purpose >h3{
+    color:#333333;
+    letter-spacing: 2px;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+}
+.purpose_para{
+    color: black;
+    font-size: 14px;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    word-spacing: 1px;
+
 }

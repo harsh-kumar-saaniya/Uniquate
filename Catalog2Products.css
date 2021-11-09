@@ -1,10 +1,10 @@
 .catalog2__Products {
     display: flex;
 }
-.prodductsDiv{
+
+.prodductsDiv {
     display: flex;
     /* width: 50%; */
-
 }
 
 .productCart {
@@ -17,7 +17,6 @@
     margin-left: 10px;
     margin-right: 10px;
 }
-
 
 .productImage {
     width: 185px;
@@ -34,19 +33,20 @@ img {
     height: 100%;
     /* object-fit: cover; */
 }
-.productDetaildiv{
+
+.productDetaildiv {
     padding: 8px;
     padding-left: 20px;
 }
+
 .productname a {
     text-decoration: none;
     font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
     font-size: 16px;
-}
-
-.productname>a:hover, a:active {
     color: #555555;
 }
+
+/* .productname>a:hover, a:active {} */
 
 .priceDiv {
     margin-top: 8px;

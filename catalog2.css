@@ -1,4 +1,4 @@
-.header {
+/* .header {
     width: 100%;
     background-image: url('http://dweissmc.businesscatalyst.com/images/header-footer.png');
     background-repeat: repeat-x;
@@ -33,7 +33,7 @@
 .header__secondlayer {
     display: flex;
     justify-content: center;
-}
+} */
 
 .catalog2__Products {
     display: flex;
@@ -84,6 +84,7 @@
 
 .cartItemDealer {
     width: 10px;
+    margin-right: 5px;
     outline: none;
 }
 
@@ -97,6 +98,7 @@
 
 .helpfullUpdates {
     margin-top: 30px;
+    /* border: 1px solid black; */
     display: flex;
 }
 
@@ -150,14 +152,16 @@
 
 .submitBtn {
     background: transparent url(./Assets/Project\ custom\ Images/button.png) no-repeat 0 0;
-    padding: 5px;
+    background-position: center;
     border: none;
+    /* padding: 5px;
     width: 120px;
-    height: 28px;
+    height: 35px;
     color: #333333;
     line-height: 18px;
     cursor: pointer;
-    text-align: center;
+    border: 1px solid black;
+    text-align: center; */
 }
 
 #textarea {

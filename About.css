@@ -1,0 +1,32 @@
+.notFoundContainer {
+    margin-top: 30px;
+    height: 200px;
+    width: 700px;
+    border: 1px solid #cccccc;
+  background-color: #fff;
+    margin-right: 25px;
+    padding: 20px
+}
+
+.notfoundheading>p {
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    font-size: 14px;
+    color: red;
+}
+
+/* .otherReason {
+    border: 1px solid black;
+} */
+
+.otherReason > ul > li{
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    font-size: 14px;
+    color: red;
+    margin-bottom: 5px;
+}
+.reasonDirect{
+    color: #0a86f2;
+}
+.secondline{
+    margin-top: 5px;
+}

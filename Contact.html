@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="Contact.css">
+  <link rel="stylesheet" href="Catalog2Products.css">
+  <link rel="stylesheet" href="catalog3.css">
+
+  <title>Contact Page</title>
+</head>
+
+<body>
+  <div class="contactPage">
+    <div class="header">
+      <div class="headersection">
+        <div class="header__firstlayer">
+          <div>
+            <img src="./Assets/Project custom Images/Logo.png" alt="Logo Image" />
+          </div>
+          <div>
+            No one is login
+          </div>
+        </div>
+        <div class="header__secondlayer">
+          <ul class="navbarItems">
+            <li><a  href="index.html">HOME</a></li>
+            <li><a href="Shop.html">SHOP</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="Forum.html">FORUM</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a class="highlighted" href="Contact.html">CONTACT</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Portfolio.html">PORTFOLIO</a></li>
+            <li><a href="Charitable.html">Charitable Giving </a> </li>
+            <form>
+              <input type="text" name="searchbar" id="searchBar">
+              <input type="submit" id="searchBtn" value="Search">
+            </form>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="ContactBody">
+      <div class="container">
+        <div class="mid-class">
+          <div class="grid8 first">
+            <h2>Contact</h2>
+            <div class="contact-us">
+              <form name="catwebformform14090" method="post" onsubmit="return checkWholeForm14090(this)"
+                enctype="multipart/form-data"
+                action="/FormProcessv2.aspx?WebFormID=10090&amp;OID=5229554&amp;OTYPE=1&amp;EID=0&amp;CID=0"
+                id="contactForm">
+                <div class="form">
+                  <span class="req">*</span> Required
+
+                  <div class="item">
+                    <label for="Title">Title</label>
+                    <select name="Title" id="Title" class="cat_dropdown_smaller">
+                      <option value="336239">DR</option>
+                      <option value="336238">MISS</option>
+                      <option value="336235" selected="selected">MR</option>
+                      <option value="336236">MRS</option>
+                      <option value="336237">MS</option>
+                    </select>
+                  </div>
+
+                  <div class="item">
+                    <label for="FirstName">First Name <span class="req">*</span></label>
+                    <input type="text" name="FirstName" id="FirstName" class="cat_textbox" maxlength="255" />
+                  </div>
+
+                  <div class="item">
+                    <label for="LastName">Last Name <span class="req">*</span></label>
+                    <input type="text" name="LastName" id="LastName" class="cat_textbox" maxlength="255" />
+                  </div>
+
+                  <div class="item">
+                    <label for="EmailAddress">Email Address <span class="req">*</span></label>
+                    <input type="text" name="EmailAddress" id="EmailAddress" class="cat_textbox" maxlength="255" />
+                  </div>
+
+                  <div class="item">
+                    <label for="HomePhone">Home Phone Number <span class="req">*</span></label>
+                    <input type="text" name="HomePhone" id="HomePhone" class="cat_textbox" maxlength="255" />
+                  </div>
+
+                  <div class="item">
+                    <label for="CellPhone">Cell Phone Number <span class="req">*</span></label>
+                    <input type="text" name="CellPhone" id="CellPhone" class="cat_textbox" maxlength="255" />
+                  </div>
+
+                  <div class="item">
+                    <label for="WebAddress">Web Address <span class="req">*</span></label>
+                    <input type="text" name="WebAddress" id="WebAddress" class="cat_textbox" maxlength="255" />
+                  </div>
+
+                  <div class="item">
+                    <label>Preferred Contact Method</label>
+                    <input type="radio" name="CAT_Custom_868" id="CAT_Custom_868_0" value="Phone"
+                      class="item-radio" />Phone
+                    <input type="radio" name="CAT_Custom_868" id="CAT_Custom_868_1" value="Email"
+                      class="item-radio" />Email
+                  </div>
+
+                  <div class="item">
+                    <label for="CAT_Custom_869">Comments/Enquiries</label>
+                    <textarea name="CAT_Custom_869" id="CAT_Custom_869" cols="10" rows="5" class="cat_listbox"
+                      onkeydown="if(this.value.length>=1024)this.value=this.value.substring(0,1023);"></textarea>
+                  </div>
+
+                  <div class="item">
+                    <input name="submit" value="Send Message" type="submit" class="submit" />
+                  </div>
+
+                  <script type="text/javascript"
+                    src="/CatalystScripts/ValidationFunctions.js?vs=b112.82627df9-phase1"></script>
+                  <script type="text/javascript">
+                    //<![CDATA[
+                    var submitcount14090 = 0;
+                    function checkWholeForm14090(theForm) {
+                      var why = '';
+                      if (theForm.FirstName)
+                        why += isEmpty(theForm.FirstName.value, 'First Name');
+                      if (theForm.LastName)
+                        why += isEmpty(theForm.LastName.value, 'Last Name');
+                      if (theForm.EmailAddress)
+                        why += checkEmail(theForm.EmailAddress.value);
+                      if (theForm.HomePhone)
+                        why += isEmpty(
+                          theForm.HomePhone.value,
+                          'Home Phone Number',
+                        );
+                      if (theForm.CellPhone)
+                        why += isEmpty(
+                          theForm.CellPhone.value,
+                          'Cell Phone Number',
+                        );
+                      if (why != '') {
+                        alert(why);
+                        return false;
+                      }
+                      if (submitcount14090 == 0) {
+                        submitcount14090++;
+                        theForm.submit();
+                        return false;
+                      } else {
+                        alert('Form submission is in progress.');
+                        return false;
+                      }
+                    }
+                  //]]>
+                  </script>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="New-section">
+        <div class="news">
+          <div class="secondDiv">
+            <div id="newHeading">Latest news</div>
+            <div class="boxForLatestNews">
+              <div class="latestNewsPlace">
+                <h1><a href="#">Company Announces Record Profits</a><span class="dateupdates">16-Jun-2011</span></h1>
+                <p>You can now write about your latest news, announcements and much more. When a customer clicks th.</p>
+              </div>
+              <div class="latestNewsPlace">
+                <h1><a href="#">Important Notice to Shareholders</a><span class="dateupdates">16-Jun-2011</span></h1>
+                <p>You can now write about your latest news, announcements and much more. When a customer clicks th..
+                </p>
+              </div>
+              <div class="latestNewsPlace">
+                <h1><a href="#">New 24hr Self-Service Support Centre Open for
+                    Business</a><span class="dateupdates">16-Jun-2011</span></h1>
+                <p>You can now write about your latest news, announcements and much more. When a customer clicks th..
+                </p>
+              </div>
+              <div class="latestNewsPlace">
+                <h1><a href="#">New Product Released</a><span class="dateupdates">16-Jun-2011</span></h1>
+                <p>You can now write about your latest news, announcements and much more. When a customer clicks the
+                  li..</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footersectionfirst">
+    <div class="footerDividedSections">
+      <div class="siteMennuDiv">
+        <div>Site menu</div>
+        <table class="sideMenuTable">
+          <tr class="tableRow">
+            <td class="tableDATA"><a href="index.html">Home </a></td>
+          </tr>
+          <tr>
+            <td class="tableDATA"> <a href="Shop.html">Shop</a></td>
+          </tr>
+          <tr>
+            <td class="tableDATA"> <a href="Blog.html">Blog</a></td>
+          </tr>
+          <tr>
+            <td class="tableDATA"> <a href="Forum.html">Forum</a></td>
+          </tr>
+          <tr>
+            <td class="tableDATA"> <a href="Contact.html">Contact</a></td>
+          </tr>
+          <tr>
+            <td class="tableDATA"> <a href="About.html">About</a></td>
+          </tr>
+          <tr>
+            <td class="tableDATA"> <a href="Portfolio.html">Portfolio</a>
+            </td>
+          </tr>
+          <tr>
+            <td class="tableDATA"> <a href="Charitable.html">Charitable
+                Giving</a></td>
+          </tr>
+        </table>
+
+      </div>
+      <div class="secondDiv">
+        <div>Latest news</div>
+        <div class="boxForLatestNews">
+          <div class="updates">
+            <h1><a href="#">Company Announces Record Profits</a><span class="dateupdates">16-Jun-2011</span></h1>
+            <p>You can now write about your latest news, announcements and
+              much more. When a customer
+              clicks th..</p>
+          </div>
+          <div class="updates">
+            <h1><a href="#">Important Notice to Shareholders</a><span class="dateupdates">16-Jun-2011</span></h1>
+            <p>You can now write about your latest news, announcements and
+              much more. When a customer
+              clicks th..</p>
+          </div>
+          <div class="updates">
+            <h1><a href="#">New 24hr Self-Service Support Centre Open for
+                Business</a><span class="dateupdates">16-Jun-2011</span></h1>
+            <p>You can now write about your latest news, announcements and
+              much more. When a customer
+              clicks th..</p>
+          </div>
+        </div>
+      </div>
+      <div class="newsletterSignup">
+        <div>Newsletter Sign-up</div>
+        <div class="sigup-place">
+          <div class="name">
+            <p>Full Name</p>
+            <input type="text" name="fullName" class="fullNameID">
+          </div><br>
+          <div class="email">
+            <p>Email Address</p>
+            <input type="email" name="email" class="fullNameID">
+          </div><br>
+          <div class="verification">
+            <p>Enter Word Verification in box below</p>
+            <div class="code">
+              <p id="random">g g m m f q</p>
+            </div><br>
+            <input type="text" name="code" class="fullNameID">
+          </div><br>
+          <div class="submitPlace">
+            <button class="submitBtn" type="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="MembersLogin">
+        <div>Members Only Login</div>
+        <div class="sigup-place">
+          <div class="name">
+            <p>Username</p>
+            <input type="text" name="fullName" class="fullNameID">
+          </div><br>
+          <div class="email">
+            <p>Password</p>
+            <input type="password" name="email" class="fullNameID">
+          </div><br>
+          <div class="checkout">
+            <input type="checkbox" name=""><span class="remember">Remember
+              me</span>
+          </div><br>
+          <div class="submitPlace">
+            <button class="submitBtn" type="submit">Log in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+  <div class="footerSecondSection">
+    <div class="secondSectionDetail">
+      <div class="copyright">Copyright © 2011 dweissmc.businesscatalyst.com, all
+        rights reserved.</div>
+      <div><img src="./Assets/Project custom Images/logo-footer.png" alt="footer image" />
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  </div>
+</body>
+
+</html>

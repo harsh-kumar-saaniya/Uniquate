@@ -1,28 +1,80 @@
-.subscribeBtnClx{
+.headingform {
+    margin-top: 40px;
+    /* border: 2px solid black; */
+    margin-right: 17%;
+    margin-left: 17%;
+}
+
+.subscribeBtnClx {
     margin: 0 5px 0 0;
     padding: 5px;
     position: relative;
     display: block;
     float: left;
     border: none;
-    border-radius: 25px;
-    width: 110px;
+    border-radius: 35px;
+    width: 160px;
     height: 18px;
-    background: transparent url(../images/button.png) no-repeat 0 0;
+    background: transparent url(./Assets/Project\ custom\ Images/subscribe.png) no-repeat 0 0;
     color: #333333;
     line-height: 18px;
     text-align: center;
     cursor: pointer;
 }
-.firstContain{
-    display: flex;
-    align-content: center;
-    justify-content:   flex-start ;
-    border: 1px solid black;
+
+.formDisplayer {
+    margin-top: 10px;
+    padding: 10px;
+    /* border-bottom: 1px solid #e2e2e2; */
 }
-.paraName{
+
+.forumHeadng {
+    color: #0a86f2;
+    font-weight: 200 !important;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+}
+
+.paraName {
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
     font-size: 14px;
 }
-.paraNamebuttons{
+
+.firstContain {
     display: flex;
+}
+
+.paraNamebuttons {
+    margin-left: 30px;
+}
+
+.topicName {
+    display: flex;
+    border-top: 1px solid #c2bdbd;
+    border-bottom: 1px solid #c2bdbd;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 550;
+    font-size: 14px;
+}
+
+.dislayerDetails {
+    /* border: 1px solid black; */
+    display: flex;
+    margin-right: 150px;
+    align-items: center;
+}
+
+.detailType {
+    margin-right: 20px;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+    font-size: 14px;
+    font-weight: 55 0;
+}
+
+.topicsDetails {
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
 }

@@ -9,6 +9,7 @@
     display: flex;
     margin-top: 70px;
     width: 75%;
+    /* border: 1px solid black; */
     /* flex-wrap: wrap; */
 }
 
@@ -30,13 +31,33 @@
     border-bottom: 1px solid rgb(82, 78, 78);
 }
 
-.pagenumber{
+.pagenumber {
     margin-left: 10px;
 }
+
 .pagesHandling {
     display: flex;
     margin-top: 25px;
     margin-left: 200px;
+    /* border: 1px solid black; */
+    align-items: center;
 }
 
+.pagenumber>ul {
+    list-style-type: none;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.pagenumber>ul li {
+    margin-left: 5px;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.pagenumber > ul li:active{
+background-color: chartreuse;
+}
+.paginationImage {
+    /* border: 1px solid black; */
+}
 

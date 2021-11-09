@@ -1,0 +1,171 @@
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mid-class {
+  width: 100%;
+  display: table;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.grid8 {
+  margin-bottom: 15px;
+  width: 642px;
+}
+
+.first {
+  margin-left: 0;
+  clear: left;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 28px;
+  margin-bottom: 10px;
+  font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+  color: #333333;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+/* html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+} */
+
+.form {
+  text-align: left;
+  padding: 10px 0;
+  width: auto;
+}
+
+.form .item {
+  display: block;
+  margin: 10px 0 20px;
+  padding: 0 0 0 160px;
+  zoom: 1;
+}
+
+.form label {
+  float: left;
+  width: 150px;
+  margin: 0 0 0 -160px;
+  color: #666666;
+  display: block;
+  text-align: left;
+  font-weight: 400;
+  font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+}
+
+.form select {
+  width: 321px;
+}
+
+.form .req {
+  color: #333333;
+  font-weight: bold;
+}
+
+p, span {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.form input {
+  padding: 5px 10px;
+  border: 1px solid #cccccc;
+  background-color: #eeeeee;
+  height: 15px;
+  width: 300px;
+}
+
+.form input[type='radio'] {
+  padding: 0;
+  border: 0;
+  margin: 0 5px;
+  background: none;
+  width: auto;
+  height: auto;
+}
+
+.form .submit {
+  padding: 5px;
+  position: relative;
+  border: none;
+  width: 120px;
+  height: 28px;
+  background: no-repeat 0 0;
+  color: #333333;
+  line-height: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.form textarea {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  background-color: #eeeeee;
+}
+
+.ContactBody {
+  /* border: 10px solid red; */
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 60px;
+}
+
+#newHeading {
+  font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+  letter-spacing: 1px;
+}
+
+.news {
+  width: 300px;
+  margin-top: 30px;
+  /* height: 500px; */
+  width: 300px;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+  /* border: 1px solid black; */
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.latest_news_div {
+  padding: 30px 25px 30px 25px;
+}
+
+.latestNewsPlace>h1 {
+  font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+  font-weight: 500;
+  color: #4083a9;
+}
+
+.latestNewsPlace>h1>a {
+  color: #4083a9;
+  text-decoration: none;
+}
+
+.dateupdates {
+  color: rgb(117, 116, 116);
+  font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+  font-weight: 100;
+}
+
+.latestNewsPlace>p {
+  font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+  color: grey;
+  margin-top: 5px;
+}
