@@ -79,7 +79,7 @@ const pageChanger = (pagenumber) => {
 
 
 const ulTage = document.getElementById('ulList');
-let totalpages = 1000;
+let totalpages = 1125;
 
 function element(totalPages, page) {
     pageChanger(page);
